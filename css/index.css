@@ -1,0 +1,75 @@
+#main {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60rem;
+}
+
+#container textarea {
+  border-radius: 3.2rem;
+  margin-top: 4rem;
+  margin-right: 1rem;
+  padding: 2.5rem;
+  font-size: 3.2rem;
+  color: var(--blue);
+  background: var(--white);
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--blue);
+}
+
+.warning {
+  font-size: 1.6rem;
+  padding-left: 4.3rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 67px;
+}
+
+.btn-criptografar {
+  padding: 2.4rem;
+  width: 25.8rem ;
+  cursor: pointer;
+  border: none;
+  border-radius: 3.2rem;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.btn-descriptografar {
+  padding: 2.4rem;
+  width: 25.8rem ;
+  margin-left: 2rem;
+  cursor: pointer;
+  border: 1px solid var(--blue);
+  border-radius: 3.2rem;
+  background: #D8DFE8;
+  color: var(--black);
+}
+
+#content {
+  border-radius: 3.2rem;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  margin-top: 4rem;
+  width: 25rem;
+  min-height: 59rem;
+  background: #fff;
+}
+
+#content img{
+  width: 100%;
+}

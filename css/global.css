@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body ,html{
+  --blue: #0A3871;
+  --white:  #e5e5e5;
+  --gray:#343A40;
+  --black: #121219;
+
+
+  height: 100%;
+  background: var(--white);
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
