@@ -4,14 +4,13 @@
   box-sizing: border-box;
 }
 
-body ,html{
+body, html{
   --blue: #0A3871;
   --white:  #e5e5e5;
   --gray:#343A40;
   --black: #121219;
 
-
-  height: 100%;
+  height: 100vh;
   background: var(--white);
   font-size: 62.5%;
   font-family: 'Inter', sans-serif;
@@ -27,4 +26,14 @@ textarea {
   box-shadow: none;
 
   resize: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+
 }

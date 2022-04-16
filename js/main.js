@@ -3,6 +3,7 @@ function encrypt() {
   let textUser = document.querySelector('#textUser').value
   let textTemp = ''
 
+  textUser = textUser.toLowerCase()
   for (let i = 0 ; i < textUser.length ; i++) {
     textTemp += enc(textUser[i])
   }

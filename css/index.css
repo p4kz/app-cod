@@ -1,7 +1,6 @@
 #main {
   display: flex;
   justify-content: center;
-  height: 100%;
 }
 
 #container {
@@ -65,15 +64,28 @@ h1 {
   border-radius: 3.2rem;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   margin-top: 4rem;
+  padding: 2rem;
   width: 25rem;
-  min-height: 59rem;
+  height: 55rem;
+  overflow-y: auto;
+  overflow-x: hidden;
   background: #fff;
 }
 
-#content img{
+#content img {
+  margin-top: 40%;
   width: 100%;
 }
 
+#content .span-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#content .span-text {
+  font-size: 1.6rem;
+}
+
 .result {
-  font-size: 4rem;
+  font-size: 1.6rem;
 }
