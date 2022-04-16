@@ -73,3 +73,7 @@ h1 {
 #content img{
   width: 100%;
 }
+
+.result {
+  font-size: 4rem;
+}
