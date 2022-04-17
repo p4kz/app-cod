@@ -35,5 +35,5 @@ function decrypt() {
 
 function copyText() {
   navigator.clipboard.writeText(result.textContent);
-  setTimeout(msgCopy.style.display = 'initial', 1000)
+  msgCopy.style.display = 'initial'
 }
