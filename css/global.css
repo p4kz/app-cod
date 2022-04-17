@@ -9,6 +9,8 @@ body, html{
   --white:  #e5e5e5;
   --gray:#343A40;
   --black: #121219;
+  --green: #04d361;
+  --white-a: #D8DFE8;
 
   height: 100vh;
   background: var(--white);

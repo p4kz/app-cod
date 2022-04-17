@@ -19,8 +19,8 @@
           <textarea name="" id="textUser" cols="30" rows="10" placeholder="digite seu texto aqui..."></textarea>
           <p class="warning">&#x26a0 Não coloque acento ou pontuação.</p>
           <div class="button">
-            <button class="btn-criptografar" onclick="encrypt()">Criptografar</button>
-            <button class="btn-descriptografar">Descriptografar</button>
+            <button class="btn-encrypt" onclick="encrypt()">Criptografar</button>
+            <button class="btn-descriptografar" onclick="decrypt()">Descriptografar</button>
           </div>
         </div>
       </section>
@@ -32,6 +32,8 @@
             <span class="span-title">Nenhuma mensagem encontrada</span><br>
             <span class="span-text">Digite um texto que você deseja criptografar ou descriptografar.</span>
           </p>
+          <p class="msg-copy">Copiado para area de tranferencia</p>
+          <button class="btn-copy" onclick="copyText()">Copiar</button>
         </div>
       </section>    
 
