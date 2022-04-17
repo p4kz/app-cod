@@ -1,6 +1,7 @@
 #main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #container {
@@ -13,7 +14,6 @@
 #container textarea {
   border-radius: 3.2rem;
   margin-top: 4rem;
-  margin-right: 1rem;
   padding: 2.5rem;
   font-size: 3.2rem;
   color: var(--blue);
@@ -26,7 +26,7 @@
   margin-bottom: 1rem;
 }
 
-.button {
+.box-button-cont {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,6 @@
   padding: 2rem;
   width: 25rem;
   height: 55rem;
-
   background: #fff;
 }
 
@@ -59,7 +58,7 @@
   overflow-y: auto;
   overflow-x:hidden;
   width: 21.7rem;
-  height: 41.7rem;
+  height: 40.0rem;
 }
 
 #content img {
@@ -82,6 +81,7 @@
 
 .result {
   font-size: 1.6rem;
+  color: var(--blue);
 }
 
 .box-button {

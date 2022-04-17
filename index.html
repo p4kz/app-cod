@@ -7,18 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/media-query.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>a</title>
   </head>
   <body>
-    <main id="main">
-      
+    <main id="main">      
       <section>
         <div id="container">
           <textarea name="" id="textUser" cols="30" rows="10" placeholder="digite seu texto aqui..."></textarea>
-          <p class="warning">&#x26a0 Não coloque acento ou pontuação.</p>
-          <div class="button">
+          <p class="warning">&#x26a0 Apenas letras minúsculas e sem acento.</p>
+          <div class="box-button-cont">
             <button class="btn-encrypt" onclick="encrypt()">Criptografar</button>
             <button class="btn-decrypt" onclick="decrypt()">Descriptografar</button>
           </div>
@@ -34,15 +34,13 @@
               <p class="img-title">Nenhuma mensagem encontrada</p><br>
               <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>  
-          </div>
-           
+          </div>      
           <div class="box-button">
             <p class="msg-copy">Copiado para area de tranferencia</p>
             <button class="btn-copy" onclick="copyText()">Copiar</button>
           </div>
         </div>
-      </section>    
-
+      </section>
     </main>
 
     <footer>

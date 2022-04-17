@@ -36,7 +36,7 @@ button {
   cursor: pointer;
   border: 1px solid var(--blue);
   border-radius: 3.2rem;
-  color: var(--black);
+  color: var(--blue);
   font-weight: bold;
   background: var(--white-a);
   transition: 300ms;
@@ -47,6 +47,12 @@ button:hover {
   filter: brightness(1.2)
 }
 
+button:active {
+  background-color: var(--green);
+  border: 1px solid var(--black);
+  color: var(--black);
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -54,4 +60,15 @@ footer {
   min-height: 4rem;
   margin-top: 1rem;
   font-size: 1.6rem;
+}
+
+footer a {
+  color: var(--black);
+  text-decoration: none;
+  transition: 500ms;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--green);
 }
