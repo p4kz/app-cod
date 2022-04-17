@@ -20,21 +20,26 @@
           <p class="warning">&#x26a0 Não coloque acento ou pontuação.</p>
           <div class="button">
             <button class="btn-encrypt" onclick="encrypt()">Criptografar</button>
-            <button class="btn-descriptografar" onclick="decrypt()">Descriptografar</button>
+            <button class="btn-decrypt" onclick="decrypt()">Descriptografar</button>
           </div>
         </div>
       </section>
 
       <section>
         <div id="content">
-          <p class="result"></p>
+          <div class="box-result">
+            <p class="result"></p>
             <div class="img-init">
               <img src="./img/High quality products 1 1.svg" alt="" srcset="">
               <p class="img-title">Nenhuma mensagem encontrada</p><br>
               <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-            </div>         
-          <p class="msg-copy">Copiado para area de tranferencia</p>
-          <button class="btn-copy" onclick="copyText()">Copiar</button>
+            </div>  
+          </div>
+           
+          <div class="box-button">
+            <p class="msg-copy">Copiado para area de tranferencia</p>
+            <button class="btn-copy" onclick="copyText()">Copiar</button>
+          </div>
         </div>
       </section>    
 

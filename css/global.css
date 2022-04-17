@@ -30,6 +30,23 @@ textarea {
   resize: none;
 }
 
+button {
+  padding: 2.4rem;
+  width: 25.8rem ;
+  cursor: pointer;
+  border: 1px solid var(--blue);
+  border-radius: 3.2rem;
+  color: var(--black);
+  font-weight: bold;
+  background: var(--white-a);
+  transition: 300ms;
+}
+
+button:hover {
+  transform: scale(1.03);
+  filter: brightness(1.2)
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -37,5 +54,4 @@ footer {
   min-height: 4rem;
   margin-top: 1rem;
   font-size: 1.6rem;
-
 }
