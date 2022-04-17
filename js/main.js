@@ -2,6 +2,7 @@ const textUser = document.querySelector('#textUser')
 const result = document.querySelector('.result')
 const copy = document.querySelector('.btn-copy')
 const msgCopy = document.querySelector('.msg-copy')
+const imgInit = document.querySelector('.img-init')
 
 let textTemp = ''
 
@@ -15,6 +16,7 @@ function encrypt() {
 
     result.textContent =textTemp;
     copy.style.display = 'initial'
+    imgInit.style.display = 'none'
     textUser.value = "";
   }
 }
@@ -36,4 +38,9 @@ function decrypt() {
 function copyText() {
   navigator.clipboard.writeText(result.textContent);
   msgCopy.style.display = 'initial'
+
+  setTimeout(() => {
+    msgCopy.style.display = 'none'
+  }, 2000);
 }
+

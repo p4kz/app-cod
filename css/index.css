@@ -78,12 +78,16 @@ h1 {
   width: 100%;
 }
 
-#content .span-title {
+.img-init {
+  text-align: center;
+}
+
+.img-init .img-title {
   font-size: 2rem;
   font-weight: bold;
 }
 
-#content .span-text {
+.img-init p {
   font-size: 1.6rem;
 }
 
