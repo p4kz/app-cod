@@ -43,4 +43,3 @@ function copyText() {
     msgCopy.style.display = 'none'
   }, 2000);
 }
-

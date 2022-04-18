@@ -18,3 +18,38 @@
   }
 
 }
+
+@media (max-width: 600px) {
+  #main {
+    overflow: hidden;
+  }
+
+  textarea {
+    margin-left: 21%;
+    width: 350px;
+  }
+
+  .box-button-cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-decrypt {
+    margin-top: 1rem;
+  }
+
+  .warning {
+    margin-right: 8%;
+    text-align: center;
+  }
+
+  #content {
+    min-width: 300px;
+  }
+
+  .result {
+    overflow-x: scroll;
+    min-height: 60px;
+  }
+
+}

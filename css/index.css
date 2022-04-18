@@ -28,7 +28,7 @@
 
 .box-button-cont {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   min-width: 100%;
   min-height: 67px;
@@ -38,10 +38,6 @@
   border: none;
   background: var(--blue);
   color: var(--white);
-}
-
-.btn-decrypt {
-  margin-left: 2rem;
 }
 
 #content {
