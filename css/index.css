@@ -4,6 +4,12 @@
   flex-wrap: wrap;
 }
 
+.mode-button {
+  padding: 0;
+  width: 11rem;
+  height: 3rem;
+}
+
 #container {
   display: flex;
   flex-direction: column;
@@ -16,14 +22,15 @@
   margin-top: 4rem;
   padding: 2.5rem;
   font-size: 3.2rem;
-  color: var(--blue);
-  background: var(--white);
+  color: var(--font-color);
+  background: var(--bg);
 }
 
 .warning {
   font-size: 1.6rem;
   padding-left: 4.3rem;
   margin-bottom: 1rem;
+  color: var(--font-color);
 }
 
 .box-button-cont {
@@ -36,18 +43,20 @@
 
 .btn-encrypt {
   border: none;
-  background: var(--blue);
-  color: var(--white);
+  background: var(--bg-button-en);
+  color: var(--white-font);
 }
 
 #content {
-  border-radius: 3.2rem;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 3.2rem;
+  border: 1px solid var(--content-border);
   margin-top: 4rem;
   padding: 2rem;
   width: 25rem;
   height: 55rem;
-  background: #fff;
+  background: var(--content-bg);
+  color: var(--dark-font);
 }
 
 .box-result {
@@ -77,7 +86,7 @@
 
 .result {
   font-size: 1.6rem;
-  color: var(--blue);
+  color: var(--font-color);
 }
 
 .box-button {
@@ -102,5 +111,5 @@
   left: 1.8rem;
   display: none;
   font-size: 1rem;
-  color: var(--green);
+  color: var(--green-msg);
 }
