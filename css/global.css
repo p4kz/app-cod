@@ -15,15 +15,15 @@ body.light {
   --green-msg: #04d361;
   
   --font-color:#0A3871;
-  --border-button:#0A3871;
   --dark-font:#121219;
   --white-font: #e5e5e5;
   
   --content-bg: #fff;
   --content-border: #e5e5e5;
-
+  
   --hover-border: #121214;
   --hover-button: #04d361;
+  --border-button:#0A3871;
   --bg-button-en:#0A3871;
   --bg-button:#D8DFE8;
   
@@ -47,6 +47,22 @@ body.dark {
   --bg-button:#1234;
   
   --bg:#121219; 
+}
+
+body.dark .img-dark {
+  display: initial;
+}
+
+body.dark .img-light {
+  display: none;
+}
+
+body.img-light .img-dark {
+  display: none;
+}
+
+body.light .img-light {
+  display: initial;
 }
 
 header {

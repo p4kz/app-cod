@@ -18,7 +18,6 @@
 }
 
 #container textarea {
-  border-radius: 3.2rem;
   margin-top: 4rem;
   padding: 2.5rem;
   font-size: 3.2rem;
@@ -69,6 +68,10 @@
 #content img {
   margin-top: 40%;
   width: 100%;
+}
+
+.img-dark{
+  display: none;
 }
 
 .img-init {

@@ -1,15 +1,28 @@
 @media (max-width: 850px) {
+
   #content {
     min-width: 60rem;
     max-height: 28rem;
   }
+
+  body.dark .img-dark {
+    display: none;
+  }
+  
+  body.dark .img-light {
+    display: none;
+  }
+  
+  body.img-light .img-dark {
+    display: none;
+  }
+  
+  body.light .img-light {
+    display: none;
+  }
   
   #textUser {
     margin-right: 0;
-  }
-
-  .img-init img {
-    display: none;
   }
 
   .box-result {
@@ -20,6 +33,7 @@
 }
 
 @media (max-width: 600px) {
+  
   #main {
     overflow: hidden;
   }
@@ -33,20 +47,36 @@
     display: flex;
     flex-direction: column;
   }
-
+  
   .btn-decrypt {
     margin-top: 1rem;
   }
-
+  
   .warning {
     margin-right: 8%;
     text-align: center;
   }
-
+  
   #content {
     min-width: 300px;
   }
 
+  body.dark .img-dark {
+    display: none;
+  }
+  
+  body.dark .img-light {
+    display: none;
+  }
+  
+  body.img-light .img-dark {
+    display: none;
+  }
+  
+  body.light .img-light {
+    display: none;
+  }
+  
   .result {
     overflow-x: scroll;
     min-height: 60px;
