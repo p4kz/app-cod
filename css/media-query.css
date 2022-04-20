@@ -1,3 +1,4 @@
+
 @media (max-width: 850px) {
 
   #content {
@@ -78,7 +79,7 @@
   }
   
   .result {
-    overflow-x: scroll;
+    overflow-x: auto;
     min-height: 60px;
   }
 

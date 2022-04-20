@@ -1,3 +1,4 @@
+
 #main {
   display: flex;
   justify-content: center;
@@ -29,6 +30,7 @@
   font-size: 1.6rem;
   padding-left: 4.3rem;
   margin-bottom: 1rem;
+  opacity: 0.6;
   color: var(--font-color);
 }
 

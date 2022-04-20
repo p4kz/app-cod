@@ -1,3 +1,4 @@
+
 const textUser = document.querySelector('#textUser')
 const result = document.querySelector('.result')
 const copy = document.querySelector('.btn-copy')
@@ -28,7 +29,7 @@ function decrypt() {
     textTemp = textTemp.replace(/ai/g, "a")
     textTemp = textTemp.replace(/ober/g, "o")
     textTemp = textTemp.replace(/ufat/g, "u")
-
+    
     result.textContent = textTemp
     copy.style.display = 'initial'
     textUser.value = ""
@@ -36,10 +37,10 @@ function decrypt() {
 }
 
 function copyText() {
-  navigator.clipboard.writeText(result.textContent);
+  navigator.clipboard.writeText(result.textContent)
   msgCopy.style.display = 'initial'
 
   setTimeout(() => {
     msgCopy.style.display = 'none'
-  }, 2000);
+  }, 2000)
 }

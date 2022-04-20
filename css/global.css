@@ -1,10 +1,11 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body, html{
+body, html {
   height: 100vh;
   background: var(--bg);
   font-size: 62.5%;
@@ -12,40 +13,32 @@ body, html{
 }
 
 body.light {
-  --green-msg: #04d361;
-  
+  --green-msg: #04d361; 
   --font-color:#0A3871;
   --dark-font:#121219;
-  --white-font: #e5e5e5;
-  
+  --white-font: #e5e5e5;  
   --content-bg: #fff;
-  --content-border: #e5e5e5;
-  
+  --content-border: #e5e5e5; 
   --hover-border: #121214;
   --hover-button: #04d361;
   --border-button:#0A3871;
   --bg-button-en:#0A3871;
-  --bg-button:#D8DFE8;
-  
+  --bg-button:#D8DFE8;  
   --bg:#e5e5e5; 
 }
 
 body.dark {
-  --green-msg: #04d361;
-  
+  --green-msg: #04d361;  
   --font-color:#e5e5e5;
-  --dark-font:#fff;
+  --dark-font:#e5e5e5;
   --white-font: #e5e5e5;
-
   --content-bg: #1123;
   --content-border: #8257e5;
-
-  --hover-border: #000;
+  --hover-border: #121214;
   --hover-button: #04d361;
   --border-button:#8257e5;
   --bg-button-en:#8257e5;
-  --bg-button:#1234;
-  
+  --bg-button:#1234;  
   --bg:#121219; 
 }
 
@@ -83,6 +76,11 @@ textarea {
   resize: none;
 }
 
+::placeholder {
+  opacity: 0.6;
+  color: var(--font-color);
+}
+
 button {
   padding: 2.4rem;
   width: 25.8rem ;
@@ -113,6 +111,10 @@ footer {
   min-height: 4rem;
   margin-top: 1rem;
   font-size: 1.6rem;
+}
+
+footer a {
+  margin-left: .5rem;
 }
 
 footer a, p {
