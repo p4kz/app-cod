@@ -9,14 +9,11 @@
   <li>Create repository</li>
   <li>Study crypto</li>
   <li>Design model create in html/css</li>
-  <li>Create crypto in JavaScript</li>
+  <li>Create encrypt/decrypt in JavaScript</li>
   <li>Create clipboard button</li>
-  <li>Responsive screens</li>
-  
-  <h3>Bonus</h3>
+  <li>Responsive screens</li>  
   <li>Dark mode</li>
   <li>Copy response</li>
-  <li>Test in all browsers</li>
   <li>Fix inssues/bugs</li>
 </ol>
 <p>Roadmap - <a href='https://trello.com/b/i6hBKo6u/desafio-1-oracle-alura'>Trello</a> - <a href='https://www.figma.com/file/BKPeHUNoxLYZodzYOHv1ET/Alura-Challenge---Desafio-1---L%C3%B3gica-(Copy)?node-id=0%3A1'>Figma</a></p>
