@@ -91,6 +91,7 @@
 
 .result {
   font-size: 1.6rem;
+  overflow-wrap: break-word;
   color: var(--font-color);
 }
 
