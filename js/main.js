@@ -10,7 +10,7 @@ let textTemp = ''
 function encrypt() { 
   if (textUser.value != "") {
     textTemp = textUser.value
-    textTemp = clearText(textUser.value)
+    textTemp = cleanText(textUser.value)
     textTemp = textTemp.replace(/e/g, "enter")
     textTemp = textTemp.replace(/i/g, "imes")
     textTemp = textTemp.replace(/a/g, "ai")
@@ -38,7 +38,7 @@ function decrypt() {
   }
 }
 
-function clearText(text) {
+function cleanText(text) {
   text = text.toLowerCase()                                                      
   text = text.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a')
   text = text.replace(new RegExp('[ÉÈÊ]','gi'), 'e')
