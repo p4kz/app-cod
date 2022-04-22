@@ -44,6 +44,11 @@
     width: 350px;
   }
 
+  .clean-text {
+    max-width: 25rem;
+    margin-left: 12rem;
+  }
+
   .box-button-cont {
     display: flex;
     flex-direction: column;

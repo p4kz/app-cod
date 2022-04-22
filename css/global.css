@@ -10,6 +10,9 @@ body, html {
   background: var(--bg);
   font-size: 62.5%;
   font-family: 'Inter', sans-serif;
+
+  --black-font:#121214;
+  --white-bg:#fff;
 }
 
 body.light {

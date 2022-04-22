@@ -26,8 +26,27 @@
   background: var(--bg);
 }
 
+.msg-box {
+  position: relative; 
+}
+
+.clean-text {
+  position: absolute;
+  left: 6rem;
+  bottom: 3rem;
+  opacity: 0;
+	transition: 0.5s;
+  text-align: center;
+  padding: 0.5rem;
+  width: 30rem;
+  border-radius: 2rem 2rem 2rem 0rem;
+  font-size: 1.5rem;
+  background: var(--white-bg);
+  color: var(--black-font);
+}
+
 .warning {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   padding-left: 4.3rem;
   margin-bottom: 1rem;
   opacity: 0.6;
