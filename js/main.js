@@ -4,7 +4,9 @@ const result = document.querySelector('.result')
 const copy = document.querySelector('.btn-copy')
 const msgCopy = document.querySelector('.msg-copy')
 const imgInit = document.querySelector('.img-init')
-const textInvalid = document.querySelector('.clean-text') 
+const textInvalid = document.querySelector('.clean-text')
+const warningIcon = document.querySelector('.warning span') 
+const warningDiv = document.querySelector('.warning')
 
 let textTemp = ''
 
@@ -58,13 +60,22 @@ function showWarning(text) {
     for (let i = 0; i < invalid.length; i++) {
       if (text[x] === invalid[i]) {
         textInvalid.style.opacity = '1'
+        warningIcon.style.color = '#900'
+
+        warningIcon.addEventListener('mouseover', () => {
+          textInvalid.style.opacity = '.6'
+        })
+        
+        warningIcon.addEventListener('mouseleave', () => {
+          textInvalid.style.opacity = '0'
+        })
       }
     }
   }  
-
+  
   setTimeout(() => {
     textInvalid.style.opacity = '0'
-  }, 3000)
+  }, 4000)
 }
 
 function copyText() {
