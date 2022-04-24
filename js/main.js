@@ -5,8 +5,7 @@ const copy = document.querySelector('.btn-copy')
 const msgCopy = document.querySelector('.msg-copy')
 const imgInit = document.querySelector('.img-init')
 const textInvalid = document.querySelector('.clean-text')
-const warningIcon = document.querySelector('.warning span') 
-const warningDiv = document.querySelector('.warning')
+const warningIcon = document.querySelector('.warning span')
 
 let textTemp = ''
 
@@ -20,11 +19,11 @@ function encrypt() {
     textTemp = textTemp.replace(/a/g, 'ai')
     textTemp = textTemp.replace(/o/g, 'ober')
     textTemp = textTemp.replace(/u/g, 'ufat')
-    
+  
     result.textContent = textTemp
     copy.style.display = 'initial'
     imgInit.style.display = 'none'
-    textUser.value = ""
+    textUser.value = ''
   }
 }
 

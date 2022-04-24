@@ -13,17 +13,17 @@ body, html {
 
   --black-font:#121214;
   --white-bg:#fff;
+  --hover-border:#121214;
+  --hover-button:#04d361;
+  --green-msg:#04d361;  
 }
 
 body.light {
-  --green-msg: #04d361; 
   --font-color:#0A3871;
   --dark-font:#121219;
-  --white-font: #e5e5e5;  
-  --content-bg: #fff;
-  --content-border: #e5e5e5; 
-  --hover-border: #121214;
-  --hover-button: #04d361;
+  --white-font:#e5e5e5;  
+  --content-bg:#fff;
+  --content-border:#e5e5e5; 
   --border-button:#0A3871;
   --bg-button-en:#0A3871;
   --bg-button:#D8DFE8;  
@@ -31,14 +31,11 @@ body.light {
 }
 
 body.dark {
-  --green-msg: #04d361;  
   --font-color:#e5e5e5;
   --dark-font:#e5e5e5;
-  --white-font: #e5e5e5;
-  --content-bg: #1123;
-  --content-border: #8257e5;
-  --hover-border: #121214;
-  --hover-button: #04d361;
+  --white-font:#e5e5e5;
+  --content-bg:#1123;
+  --content-border:#8257e5;
   --border-button:#8257e5;
   --bg-button-en:#8257e5;
   --bg-button:#1234;  
@@ -98,7 +95,7 @@ button {
 
 button:hover {
   transform: scale(1.03);
-  filter: brightness(1.2)
+  filter: brightness(1.2);
 }
 
 button:active {
