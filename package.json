@@ -1,20 +1,20 @@
 {
-  "name": "a-deco",
+  "name": "app-cod",
   "version": "1.0.0",
-  "description": "<h1>a-deco</h1>\r <p>Encrypt and Decrypt text.</p>\r <a href='https://a-deco.vercel.app/'>Site deploy<a>\r   <br><br>\r <img src='https://cdn.discordapp.com/attachments/920499004343717960/966393342969675796/teste2.png'>\r <h2>Challenge</h2>\r <p>Challenge proposed in the program One - Alura+Oracle </p>\r <p>Roadmap - <a href='https://trello.com/b/i6hBKo6u/desafio-1-oracle-alura'>Trello</a> - <a href='https://www.figma.com/file/BKPeHUNoxLYZodzYOHv1ET/Alura-Challenge---Desafio-1---L%C3%B3gica-(Copy)?node-id=0%3A1'>Figma</a></p>",
-  "main": "index.js",
+  "description": "Encrypt and Decrypt text.",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/p4kz/a-deco.git"
+    "url": "git+https://github.com/p4kz/app-cod.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Eric Machado Mendonça // p4kz",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/p4kz/a-deco/issues"
+    "url": "https://github.com/p4kz/app-cod/issues"
   },
-  "homepage": "https://github.com/p4kz/a-deco#readme"
+  "homepage": "https://github.com/p4kz/app-cod#readme"
 }

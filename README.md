@@ -1,4 +1,4 @@
-<h1>a-deco</h1>
+<h1>app-cod</h1>
 <p>Encrypt and Decrypt text.</p>
 <a href='https://a-deco.vercel.app/'>Site deploy<a>
   <br><br>
