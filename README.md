@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/p4kz/four-k#about">About</a> 
-  • <a href="https://github.com/p4kz/four-k#techs">Technologies</a> 
-  • <a href="https://github.com/p4kz/four-k#execute">Installation</a>
+    <a href="https://github.com/p4kz/app-cod#about">About</a> 
+  • <a href="https://github.com/p4kz/app-cod#techs">Technologies</a> 
+  • <a href="https://github.com/p4kz/app-cod#execute">Installation</a>
     <h2 align="center">Challenge proposed in the program One - Alura+Oracle</h2>
 </p>
 
