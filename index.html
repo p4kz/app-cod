@@ -14,27 +14,27 @@
   </head>
   <body>
     <header>
-      <button onClick='toggleMode()' id='darkmode-button' class="mode-button">Dark mode</button>
+      <button class="mode-button" data-dark-mode>Dark mode</button>
     </header>
     <main id="main">      
       <section>
         <div id="container">
-          <textarea name="Area de texto" id="textUser" cols="30" rows="10" placeholder="digite seu texto aqui..."></textarea>
+          <textarea name="Area de texto" id="textUser" cols="30" rows="10" placeholder="digite seu texto aqui..." data-text></textarea>
           <div class="msg-box">
             <p class="clean-text">Letras maiúsculas e acentuação foram substituidas por caracteres válidos.</p>
             <p class="warning"><span>&#x26a0</span> Apenas letras minúsculas e sem acento.</p>
           </div>
           <div class="box-button-cont">
-            <button class="btn-encrypt" onclick="encrypt()">Criptografar</button>
-            <button class="btn-decrypt" onclick="decrypt()">Descriptografar</button>
+            <button class="btn-encrypt" data-encrypt>Criptografar</button>
+            <button class="btn-decrypt" data-decrypt>Descriptografar</button>
           </div>
         </div>
       </section>
       <section>
         <div id="content">
           <div class="box-result">
-            <p class="result"></p>
-            <div class="img-init">
+            <p class="result" data-result></p>
+            <div class="img-init" data-image>
               <img class="img-dark" src="./src/img/finder-roxo.svg" alt="Garoto segurando lupa com camisa e cabelo roxo">
               <img class="img-light" src="./src/img/finder-blue.svg" alt="Garoto segurando lupa com camisa e cabelo azul">
               <p class="img-title">Nenhuma mensagem encontrada</p><br>
@@ -42,8 +42,8 @@
             </div>  
           </div>      
           <div class="box-button">
-            <p class="msg-copy">Copiado para area de tranferencia</p>
-            <button class="btn-copy" onclick="copyText()">Copiar</button>
+            <p class="msg-copy" data-copy-message>Copiado para area de tranferencia</p>
+            <button class="btn-copy" data-copy>Copiar</button>
           </div>
         </div>
       </section>
@@ -51,7 +51,6 @@
     <footer>
       <p>Com 💜</p><a href="https://github.com/p4kz" target="_blank">p4kz</a>
     </footer> 
-    <script src="./src/js/dark.js"></script>
-    <script src="./src/js/main.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>

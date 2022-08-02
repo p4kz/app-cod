@@ -1,4 +1,3 @@
-
 window.onload = function() {
   setMode()
 }
@@ -9,9 +8,9 @@ function setMode() {
   document.body.classList.add(mode)
 }
 
-function toggleMode() {
+export const toggleMode = () => {
   let element = document.body
-  let btn = document.getElementById('darkmode-button')
+  let btn = document.querySelector('[data-dark-mode]')
   let mode = localStorage.getItem('mode')
   
   if(!mode) mode = 'dark'
