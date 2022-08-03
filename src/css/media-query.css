@@ -1,32 +1,13 @@
 
 @media (max-width: 850px) {
 
-  #content {
-    min-width: 60rem;
-    max-height: 28rem;
-  }
 
-  body.dark .img-dark {
-    display: none;
-  }
-  
-  body.dark .img-light {
-    display: none;
-  }
-  
-  body.img-light .img-dark {
-    display: none;
-  }
-  
-  body.light .img-light {
-    display: none;
-  }
-  
-  #textUser {
+
+  .main__textarea {
     margin-right: 0;
   }
 
-  .box-result {
+  .result__box {
     max-height: 15rem;
     min-width: 100%;
   }
@@ -39,7 +20,7 @@
     overflow: hidden;
   }
 
-  textarea {
+  .main__textarea {
     margin-left: 21%;
     width: 350px;
   }

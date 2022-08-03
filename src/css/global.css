@@ -6,7 +6,7 @@
 }
 
 body, html {
-  height: 100vh;
+  min-height: 100%;
   background: var(--bg);
   font-size: 62.5%;
   font-family: 'Inter', sans-serif;
@@ -42,26 +42,20 @@ body.dark {
   --bg:#121219; 
 }
 
-body.dark .img-dark {
+body.dark .result__box--image-dark {
   display: initial;
 }
 
-body.dark .img-light {
+body.dark .result__box--image-light {
   display: none;
 }
 
-body.img-light .img-dark {
+body.light .result__box--image-dark {
   display: none;
 }
 
-body.light .img-light {
+body.light .result__box--image-light {
   display: initial;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0 0 2rem;
 }
 
 textarea {
@@ -108,8 +102,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 4rem;
-  margin-top: 1rem;
   font-size: 1.6rem;
 }
 
@@ -126,4 +118,16 @@ footer a, p {
 footer a:hover {
   text-decoration: underline;
   color: var(--hover-button);
+}
+
+.container {
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+}
+
+.wrap {
+  max-width: 1140px;
+  min-width: 370px;
+  margin-left: auto;
+  margin-right: auto; 
 }

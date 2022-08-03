@@ -1,7 +1,7 @@
 
 const warning = (text) => {
-  const textInvalid = document.querySelector('.clean-text')
-  const warningIcon = document.querySelector('.warning span')
+  const textInvalid = document.querySelector('[data-menssage-text]')
+  const warningIcon = document.querySelector('[data-menssage-warning-icon]')
 
   let isValid = /[A-ZÀ-ÿ]/.test(text)
 
