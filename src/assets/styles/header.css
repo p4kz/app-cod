@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.header__button {
+  padding: 0;
+  width: 11rem;
+  height: 3rem;
+}

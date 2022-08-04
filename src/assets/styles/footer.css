@@ -1,0 +1,22 @@
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  height: 80px;
+}
+
+.footer__text, .footer__link {
+  color: var(--dark-font);
+  text-decoration: none;
+  transition: 1000ms;
+}
+
+.footer__link {
+  margin-left: .5rem;
+}
+
+.footer__link:hover {
+  color: var(--hover-button);
+}

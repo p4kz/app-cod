@@ -58,24 +58,19 @@ body.light .result__box--image-light {
   display: initial;
 }
 
-textarea {
-  border: none;
-  overflow: auto;
-  outline: none;
-
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-
-  resize: none;
+.container {
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
 }
 
-::placeholder {
-  opacity: 0.6;
-  color: var(--font-color);
+.wrap {
+  max-width: 1140px;
+  min-width: 370px;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
-button {
+.btn {
   padding: 2.4rem;
   width: 25.8rem ;
   cursor: pointer;
@@ -87,47 +82,13 @@ button {
   transition: 300ms;
 }
 
-button:hover {
+.btn:hover {
   transform: scale(1.03);
   filter: brightness(1.2);
 }
 
-button:active {
+.btn:active {
   background-color: var(--hover-button);
   border: 1px solid var(--hover-border);
   color: var(--hover-border);
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.6rem;
-}
-
-footer a {
-  margin-left: .5rem;
-}
-
-footer a, p {
-  color: var(--dark-font);
-  text-decoration: none;
-  transition: 500ms;
-}
-
-footer a:hover {
-  text-decoration: underline;
-  color: var(--hover-button);
-}
-
-.container {
-  padding-left: 1.7rem;
-  padding-right: 1.7rem;
-}
-
-.wrap {
-  max-width: 1140px;
-  min-width: 370px;
-  margin-left: auto;
-  margin-right: auto; 
 }

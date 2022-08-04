@@ -1,0 +1,90 @@
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+}
+
+.main__textarea {
+  padding: 2.5rem;
+  font-size: 3.2rem;
+  color: var(--font-color);
+  background: var(--bg);
+  height: 450px;
+}
+
+::placeholder {
+  opacity: 0.6;
+  color: var(--font-color);
+}
+
+.main__menssage-box {
+  position: relative;
+}
+
+.main__menssage--text {
+  position: absolute;
+  left: 6rem;
+  bottom: 3rem;
+  opacity: 0;
+	transition: 0.5s;
+  text-align: center;
+  padding: 0.5rem;
+  width: 30rem;
+  border-radius: 2rem 2rem 2rem 0rem;
+  font-size: 1.5rem;
+  background: var(--white-bg);
+  color: var(--black-font);
+}
+
+.main__mensasge--warning {
+  font-size: 1.3rem;
+  padding-left: 4.3rem;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+  color: var(--font-color);
+}
+
+.main__button-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+}
+
+.main__button--encrypt {
+  border: none;
+  background: var(--bg-button-en);
+  color: var(--white-font);
+}
+
+@media screen and (max-width: 930px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main__textarea {
+    width: 100%;
+  }
+
+  .main__button--encrypt {
+    width: 50%;
+    margin: 0 .5rem;
+  }
+
+  .main__button--decrypt {
+    width: 50%;
+    margin: 0 .5rem;
+  }
+
+  .main__button-box {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main__textarea {
+    font-size: 2.2rem;
+  }
+}

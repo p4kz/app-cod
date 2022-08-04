@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +7,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./src/css/global.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
     <title>app-cod</title>
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/global.css">
+    <link rel="stylesheet" href="./src/assets/styles/header.css">
+    <link rel="stylesheet" href="./src/assets/styles/main.css">
+    <link rel="stylesheet" href="./src/assets/styles/result.css">
+    <link rel="stylesheet" href="./src/assets/styles/footer.css">
   </head>
   <body class="container">
     <header class="header">
-      <button class="header__button" data-dark-mode>Dark mode</button>
+      <button class="btn header__button" data-dark-mode>Dark mode</button>
     </header>
-    <main class="wrap main__app">
-      <div class="main">
+    <main class="wrap main">
+      <div>
         <textarea class="main__textarea" name="Area de texto" cols="30" placeholder="digite seu texto aqui..." data-text></textarea>
         <div class="main__menssage-box">
           <p class="main__menssage--text" data-menssage-text>Letras maiúsculas e acentuação foram substituidas por caracteres válidos.</p>
           <p class="main__mensasge--warning" data-menssage-warning><span data-menssage-warning-icon>&#x26a0</span> Apenas letras minúsculas e sem acento.</p>
         </div>
         <div class="main__button-box">
-          <button class="main__button--encrypt" data-encrypt>Criptografar</button>
-          <button class="main__button--decrypt" data-decrypt>Descriptografar</button>
+          <button class="btn main__button--encrypt" data-encrypt>Criptografar</button>
+          <button class="btn main__button--decrypt" data-decrypt>Descriptografar</button>
         </div>
       </div>
       <div class="result">
         <div class="result__box">
           <p class="result__box--response" data-result></p>
           <div class="result__box--image" data-image>
-            <img class="result__box--image-dark" src="./src/img/finder-roxo.svg" alt="Garoto segurando lupa com camisa e cabelo roxo">
-            <img class="result__box--image-light" src="./src/img/finder-blue.svg" alt="Garoto segurando lupa com camisa e cabelo azul">
+            <img class="result__box--image-dark" src="./src/assets/images/finder-roxo.svg" alt="Garoto segurando lupa com camisa e cabelo roxo">
+            <img class="result__box--image-light" src="./src/assets/images/finder-blue.svg" alt="Garoto segurando lupa com camisa e cabelo azul">
             <p class="result__box--image-title ">Nenhuma mensagem encontrada</p><br>
             <p class="result__box--image-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
           </div>  
         </div>      
         <div class="result__button-box">
           <p class="result__button-response" data-copy-message>Copiado para area de tranferencia</p>
-          <button class="result__button-copy" data-copy>Copiar</button>
+          <button class="btn result__button-copy" data-copy>Copiar</button>
         </div>
       </div>     
     </main>
     <footer class="footer">
-      <p>Com 💜</p><a href="https://github.com/p4kz" target="_blank">p4kz</a>
+      <p class="footer__text">Com 💜</p><a class="footer__link" href="https://github.com/p4kz" target="_blank">p4kz</a>
     </footer> 
     <script type="module" src="./src/js/main.js"></script>
   </body>
