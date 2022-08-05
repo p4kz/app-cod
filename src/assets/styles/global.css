@@ -15,13 +15,13 @@ body, html {
   --white-bg:#fff;
   --hover-border:#121214;
   --hover-button:#04d361;
-  --green-msg:#04d361;  
+  --green-msg:#04d361;
 }
 
 body.light {
   --font-color:#0A3871;
   --dark-font:#121219;
-  --white-font:#e5e5e5;  
+  --white-font:#e5e5e5;
   --content-bg:#fff;
   --content-border:#e5e5e5; 
   --border-button:#0A3871;
@@ -38,24 +38,18 @@ body.dark {
   --content-border:#8257e5;
   --border-button:#8257e5;
   --bg-button-en:#8257e5;
-  --bg-button:#1234;  
+  --bg-button:#1234;
   --bg:#121219; 
 }
 
-body.dark .result__box--image-dark {
+body.dark .result-box__image-dark, 
+body.light .result-box__image-light {
   display: initial;
 }
 
-body.dark .result__box--image-light {
+body.dark .result-box__image-light, 
+body.light .result-box__image-dark  {
   display: none;
-}
-
-body.light .result__box--image-dark {
-  display: none;
-}
-
-body.light .result__box--image-light {
-  display: initial;
 }
 
 .container {
@@ -66,19 +60,18 @@ body.light .result__box--image-light {
 .wrap {
   max-width: 1140px;
   min-width: 370px;
-  margin-left: auto;
-  margin-right: auto; 
+  margin: 0 auto;
 }
 
 .btn {
-  padding: 2.4rem;
-  width: 25.8rem ;
-  cursor: pointer;
-  border: 1px solid var(--border-button);
   border-radius: 3.2rem;
+  background: var(--bg-button);
+  border: 1px solid var(--border-button);
+  cursor: pointer;
   color: var(--font-color);
   font-weight: bold;
-  background: var(--bg-button);
+  width: 25.8rem ;
+  padding: 2.4rem;
   transition: 300ms;
 }
 
